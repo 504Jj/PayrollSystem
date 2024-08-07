@@ -7,7 +7,7 @@
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.3.27
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "AUTO_VALUE_ON_TEN_THOUSAND";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -298,17 +298,13 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `employee_id`, `first_name`, `last_name`, `phone`, `email`, `birthdate`, `media_id`, `address`, `gender`, `remark`, `position_id`, `schedule_id`, `rate_per_hour`, `salary`, `is_active`, `created_at`, `updated_at`) VALUES
-(1, 'EMP607FB27D2ED74', 'Sameer', 'Patel', '9843-984-321', 'sameer@yopmail.com', 'April 10, 2001', 2, '4008  Grey Fox Farm Road, Houston, Hyderabad, Andhra Pradesh', 'Male', NULL, 3, 2, '100.00', '30000.00', 1, '2021-04-21 05:05:01', '2021-05-01 08:03:10'),
-(2, 'EMP607FB27D399AE', 'Smita', 'Yadav', '9843-344-321', 'smita@yopmail.com', 'May 23, 1998', NULL, '25 --/, nd Floor, Behind Ramakrishna Theatre, Abids, Hyderabad, Andhra Pradesh', 'Female', NULL, 2, 3, '80.00', '24000.00', 1, '2021-04-21 05:05:01', '2021-04-21 05:05:01'),
-(3, 'EMP607FB27D4191E', 'Amit', 'Rana', '9843-321-321', 'amit@yopmail.com', 'June 13, 1994', NULL, '526 /, , Trapinex House, Sholapur Street, Chinch Bunder, Andhra Pradesh', 'Male', NULL, 2, 3, '80.00', '24000.00', 1, '2021-04-21 05:05:01', '2021-04-21 05:05:01'),
-(4, 'EMP607FB27D52206', 'Amita', 'Patil', '9842-221-344', 'amita@yopmail.com', 'July 3, 1995', NULL, '53 , A-, Har Indl Estate, Dhanraj Mills Compound, Lower Parel, Andhra Pradesh', 'Female', 'dsasfsa', 4, 4, '70.00', '21000.00', 1, '2021-04-21 05:05:01', '2021-04-29 16:11:44'),
-(5, 'EMP607FB27D9E359', 'Jayesh', 'Walter', '9843-321-555', 'jayesh@yopmail.com', 'May 01, 1992', NULL, 'Shop No 5, Sukh Aangan, St Road, Opp Bus Depot, Nalasopara(w), Andhra Pradesh', 'Male', NULL, 2, 3, '110.00', '28000.00', 1, '2021-04-21 05:05:01', '2021-04-21 05:05:01'),
-(6, 'EMP607FB27DB0FF5', 'Rony', 'Dceuza', '9833-321-521', 'rony@yopmail.com', 'December 05, 1991', NULL, '4 , D-, Yogi Nagar, Eksar Rd, Borivli (w), Andhra Pradesh', 'Male', NULL, 1, 3, '90.00', '26000.00', 1, '2021-04-21 05:05:01', '2021-04-21 05:05:01'),
-(7, 'EMP607FB27DB94E0', 'Reema', 'Patel', '7803-321-095', 'rema@yopmail.com', 'January 10, 1991', NULL, '146 -, Great Western , st, S Bhagat S Rd, Fort, Andhra Pradesh', 'Female', NULL, 4, 4, '90.00', '26000.00', 1, '2021-04-21 05:05:01', '2021-04-21 05:07:15');
+(1, 'EMP607FB27D2ED74', 'Taylor', 'Jade', '92-1943374', 'safeplusmbs@myyahoo.com, 'April 11, 1987', 2, '4008  SafePlusMedicalBillingSpecialistLLC, Harvey, Louisiana, OwnerCEO', 'FEMale', NULL, 3, 2, '400,000.00', '100,000.00', 1, '2023-01-27 05:05:01', '2023-01-27 1-27-23 05:07:15');
 
 -- --------------------------------------------------------
 
 --
+
+
 -- Table structure for table `media`
 --
 
@@ -355,17 +351,17 @@ CREATE TABLE `migrations` (
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(1, '2014_10_12_000000_create_users_table', 1),
-(2, '2014_10_12_100000_create_password_resets_table', 1),
-(3, '2020_05_14_150456_create_admins_table', 1),
-(4, '2020_05_15_063434_create_media_table', 1),
-(5, '2021_04_10_121946_create_positions_table', 1),
-(6, '2021_04_10_135831_create_deductions_table', 1),
-(7, '2021_04_10_151445_create_schedules_table', 1),
-(8, '2021_04_10_184047_create_employees_table', 1),
-(9, '2021_04_11_150533_create_overtimes_table', 1),
-(10, '2021_04_11_175800_create_cash_advances_table', 1),
-(11, '2021_04_11_193826_create_attendances_table', 1);
+(1, '2024_10_12_000000_create_users_table', 1),
+(2, '2024_10_12_100000_create_password_resets_table', 1),
+(3, '2024_05_14_150456_create_admins_table', 1),
+(4, '2024_05_15_063434_create_media_table', 1),
+(5, '2024m4_04_10_121946_create_positions_table', 1),
+(6, '2024_04_10_135831_create_deductions_table', 1),
+(7, '2024_04_10_151445_create_schedules_table', 1),
+(8, '2024_04_10_184047_create_employees_table', 1),
+(9, '2024_04_11_150533_create_overtimes_table', 1),
+(10, '2024_04_11_175800_create_cash_advances_table', 1),
+(11, '2024_04_11_193826_create_attendances_table', 1);
 
 -- --------------------------------------------------------
 
